@@ -1,0 +1,22 @@
+{
+  "namespace": "com.kafka.avrotest",
+  "type": "record",
+  "name": "AvailabilityEvent",
+  "fields": [
+    {
+      "name": "notifyingBIC",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "eventBIC",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "avro.java.string": "String"
+    }
+  ]
+}
